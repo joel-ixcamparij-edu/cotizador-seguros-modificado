@@ -53,7 +53,7 @@ if("SI" == hijos.toUpperCase()){
   cantidad_hijos = parseInt(cantidad_hijos)
 }
 
-//Aquí debe calcular el recargo total basado en las respuestas ingresadas
+//Aquí se calcula el recargo total basado en las respuestas ingresadas
 recargo_asegurado = 0
 //Aquí es donde debe de calcular los recargos y el valor final
 //Ejemplo (Debe completar los condicionales): Recargo por edad del asegurado 
@@ -108,7 +108,5 @@ if(cantidad_hijos>0 && !isNaN(cantidad_hijos)){
 
 precio_final = precio_base + recargo_total
 //Resultado
-alert ("Para el asegurado "+nombre)
-alert ("El recargo total sera de: "+recargo_total)
-alert ("El precio sera de: "+precio_final)
+alert ("Para el asegurado "+ nombre + ". El recargo total sera de: " + recargo_total + ". El precio sera de: "+precio_final)
 

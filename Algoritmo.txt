@@ -1,0 +1,37 @@
+# Algoritmo Detallado - Cotizador de Seguros Modificado
+
+1. **Inicio**  
+   - Se establece el precio base y los factores de recargo.  
+   - Se inicia un bucle para permitir múltiples cotizaciones.  
+
+2. **Solicitar datos del asegurado**  
+   - Pedir nombre (si ingresa "Salir", el programa termina).  
+   - Pedir edad y convertirla a número.  
+
+3. **Estado civil**  
+   - Preguntar si está casado.  
+   - Si responde "sí", solicitar edad del cónyuge y convertirla a número.  
+
+4. **Hijos**  
+   - Preguntar si tiene hijos.  
+   - Si responde "sí", solicitar la cantidad y convertirla a número.  
+
+5. **Propiedades e ingresos**  
+   - Pedir número de propiedades y convertir a número.  
+   - Pedir ingreso mensual y convertir a número.  
+
+6. **Calcular recargos**  
+   - Aplicar recargo por edad del asegurado y cónyuge según rangos.  
+   - Sumar recargo por cantidad de hijos.  
+   - Aplicar 35% del precio base por cada propiedad.  
+   - Aplicar 5% sobre el ingreso mensual.  
+
+7. **Calcular precio final**  
+   - Sumar todos los recargos al precio base.  
+
+8. **Mostrar resultados**  
+   - Indicar el recargo total y el precio final.  
+
+9. **Repetir o salir**  
+   - Si el usuario ingresa "Salir", el programa finaliza.  
+   - Si no, vuelve a iniciar la cotización.  
